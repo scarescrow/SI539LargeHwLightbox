@@ -1,0 +1,39 @@
+body {
+	background-image: url('../images/diagonal-squares.png');
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	color: beige;
+}
+
+.container {
+	width: 80%;
+	margin: 1% auto;
+}
+
+h1 {
+	text-align: center;
+}
+
+.btn-toolbar {
+	margin-top: 3%;
+	justify-content: center;
+}
+
+.gallery{
+	width: 95%;
+	margin: 5% auto;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-row-gap: 5px;
+	align-items: center;
+	justify-items: center;
+}
+
+.gallery a {
+	border: 2px black solid;
+}
+
+.gallery img{
+	width: 200px;
+	height: 133px;
+	box-shadow: -2px 2px 26px 6px rgba(0, 0, 0, 0.76);
+}

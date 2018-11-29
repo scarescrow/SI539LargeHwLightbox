@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="css/lightbox.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<title>Lightbox</title>
+</head>
+<body>
+	<div class="container">
+		<h1>Most Powerful Characters of Avatar: The Last Airbender</h1>
+		<div class="btn-toolbar" role="toolbar" aria-label="Filter and Sort Toolbar">
+			<div class="btn-group mr-2" role="group" aria-label="Filter group">
+				<button type="button" class="btn btn-secondary" disabled title="Filter by Bending Ability">Filter</button>
+				<button type="button" data-filter="all" class="btn btn-secondary" title="All"><i class="fas fa-align-justify" aria-label="All"></i></button>
+				<button type="button" data-filter=".water" class="btn btn-secondary" title="Waterbenders"><i class="fas fa-water" aria-label="Waterbenders"></i></button>
+				<button type="button" data-filter=".earth" class="btn btn-secondary" title="Earthbenders"><i class="fas fa-globe-asia" aria-label="Earthbenders"></i></button>
+				<button type="button" data-filter=".fire" class="btn btn-secondary" title="Firebenders"><i class="fas fa-fire" aria-label="Firebenders"></i></button>
+				<button type="button" data-filter=".air" class="btn btn-secondary" title="Airbenders"><i class="fas fa-wind" aria-label="Airbenders"></i></button>
+				<button type="button" data-filter=".none" class="btn btn-secondary" title="Non-Benders"><i class="fas fa-bed" aria-label="Non-Benders"></i></button>
+			</div>
+			<div class="btn-group mr-2" role="group" aria-label="Sort Group">
+					<button type="button" class="btn btn-secondary" disabled title="Sort by Popularity">Sort</button>
+				<button type="button" data-sort="order:asc" class="btn btn-secondary" title="Ascending"><i class="fas fa-chevron-up" aria-label="Ascending"></i></button>
+				<button type="button" data-sort="order:desc" class="btn btn-secondary" title="Descending"><i class="fas fa-chevron-down" aria-label="Descending"></i></button>
+				<button type="button" data-sort="order:random" class="btn btn-secondary" title="Random"><i class="fas fa-random" aria-label="Random"></i></button>
+			</div>
+		</div>
+		<div class = "gallery">
+			<a href="images/characters/aang.jpg" data-lightbox="Air Nomads" data-title="Aang" class="mix air water earth fire" data-order="1">
+				<img src="images/characters/aang.jpg" alt="Aang" />
+			</a>
+			<a href="images/characters/katara.png" data-lightbox="Water Tribe" data-title="Katara" class="mix water" data-order="2">
+				<img src="images/characters/katara.png" alt="Katara" />
+			</a>
+			<a href="images/characters/sokka.jpg" data-lightbox="Water Tribe" data-title="Sokka" class="mix none" data-order="8">
+				<img src="images/characters/sokka.jpg" alt="Sokka" />
+			</a>
+			<a href="images/characters/toph.jpg" data-lightbox="Earth Kingdom" data-title="Toph" class="mix earth" data-order="3">
+				<img src="images/characters/toph.jpg" alt="Toph" />
+			</a>
+			<a href="images/characters/zuko.jpeg" data-lightbox="Fire Nation" data-title="Zuko" class="mix fire" data-order="5">
+				<img src="images/characters/zuko.jpeg" alt="Zuko" />
+			</a>
+			<a href="images/characters/iroh.jpeg" data-lightbox="Fire Nation" data-title="Iroh" class="mix fire" data-order="4">
+				<img src="images/characters/iroh.jpeg" alt="Iroh" />
+			</a>
+			<a href="images/characters/suki.jpg" data-lightbox="Earth Kingdom" data-title="Suki" class="mix none" data-order="9">
+				<img src="images/characters/suki.jpg" alt="Suki" />
+			</a>
+			<a href="images/characters/azula.jpg" data-lightbox="Fire Nation" data-title="Azula" class="mix fire" data-order="6">
+				<img src="images/characters/azula.jpg" alt="Azula" />
+			</a>
+			<a href="images/characters/appa.jpeg" data-lightbox="Air Nomads" data-title="Appa" class="mix air" data-order="7">
+				<img src="images/characters/appa.jpeg" alt="Appa" />
+			</a>
+		</div>
+	</div>
+	<script src="js/lightbox-plus-jquery.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+	<script src="js/mixitup.js"></script>
+	<script src="js/script.js"></script>
+</body>
+</html>
