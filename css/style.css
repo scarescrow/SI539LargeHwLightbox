@@ -1,10 +1,11 @@
 body {
 	background-image: url('../images/diagonal-squares.png');
+	background-color: black;
 	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 	color: beige;
 }
 
-.container {
+main {
 	width: 80%;
 	margin: 1% auto;
 }
